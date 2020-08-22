@@ -1,0 +1,29 @@
+{
+    "name": "leaflet-webpack",
+    "version": "1.0.0",
+    "description": "Leaflet webpack configuration",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "dev": "webpack-dev-server",
+        "lint": "npx eslint src/**",
+        "lint:fix": "npx eslint --fix src/**",
+        "lint:fix-all": "npx eslint --fix ."
+    },
+    "author": "Viti",
+    "license": "ISC",
+    "dependencies": {
+        "leaflet": "^1.6.0",
+        "leaflet-omnivore": "^0.3.4",
+        "papaparse": "^5.2.0"
+    },
+    "devDependencies": {
+        "css-loader": "^3.4.2",
+        "file-loader": "^1.1.11",
+        "prettier": "^2.0.5",
+        "style-loader": "^0.19.1",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
